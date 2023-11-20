@@ -19,6 +19,10 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SearchTest extends TestBase {
 
+    static Queries iPhone = Queries.IPHONE;
+    static Queries macBook = Queries.MAC;
+    static Queries airPods = Queries.AIRPODS;
+
     @BeforeEach
     void setUp() {
         open("https://www.apple.com/");
@@ -49,30 +53,30 @@ public class SearchTest extends TestBase {
         $(".rf-serp-explore-curated-position-1 h2").shouldHave(text(searchResult));
     }
 
-    static Stream<Arguments> verifySearchResultTest() {
+    static Stream<Arguments> searchQueriesAndResults() {
         return Stream.of(
                 Arguments.of(
-                        Queries.IPHONE,
+                        iPhone.getDescription(),
                         List.of("iPhone 15 Pro and iPhone 15 Pro Max", "iPhone 15 and iPhone 15 Plus")
                 ),
                 Arguments.of(
-                        Queries.MAC,
+                        macBook.getDescription(),
                         List.of("MacBook Pro", "MacBook Air", "Compare Mac models")
                 ),
                 Arguments.of(
-                        Queries.AIRPODS,
+                        airPods.getDescription(),
                         List.of("AirPods", "AirPods (3rd generation)", "AirPods Pro (2nd generation)")
                 )
         );
     }
-    @MethodSource
+    @MethodSource("searchQueriesAndResults")
     @Tags({
             @Tag("CRITICAL"),
             @Tag("WEB"),
     })
     @ParameterizedTest(name = "Поиск по запросу {0} и сравнение результатов {1}")
-    void verifySearchResultsTest(Queries queries, List<String> searchResults) {
-        $("[placeholder='Search apple.com']").setValue(queries.description).pressEnter();
+    void verifySearchResultsTest(String searchQuery, List<String> searchResults) {
+        $("[placeholder='Search apple.com']").setValue(searchQuery).pressEnter();
         $$("#exploreCurated h2").filter(visible).shouldHave(texts(searchResults));
 
     }

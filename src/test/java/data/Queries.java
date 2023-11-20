@@ -5,9 +5,13 @@ public enum Queries {
     MAC("MacBook"),
     AIRPODS("AirPods");
 
-    public final String description;
+    public final String searchValue;
 
-    Queries(String description) {
-        this.description = description;
+    Queries(String searchValue) {
+        this.searchValue = searchValue;
+    }
+
+    public String getDescription() {
+        return this.searchValue;
     }
 }

@@ -22,6 +22,7 @@ public class SearchTest extends TestBase {
     @BeforeEach
     void setUp() {
         open("https://www.apple.com/");
+
         $("#globalnav-menubutton-link-search").click();
     }
 
@@ -31,19 +32,19 @@ public class SearchTest extends TestBase {
             @Tag("CRITICAL"),
             @Tag("WEB"),
     })
-    void verifySearchReturnsNotEmptyResultTest(String searchQuery) {
+    void verifySearchReturnsNotEmptyResultsTest(String searchQuery) {
 
         $("[placeholder='Search apple.com']").setValue(searchQuery).pressEnter();
         $$("#exploreCurated").shouldBe(sizeGreaterThan(0));
     }
 
-    @CsvFileSource(resources = "/test_data/verifySearchReturnsCorrectResultTest.csv")
+    @CsvFileSource(resources = "/test_data/verifySearchReturnsCorrectResultTest.csv", delimiter = '|')
     @ParameterizedTest(name="Проверка первого результата {1} по запросу {0}")
     @Tags({
             @Tag("SMOKE"),
             @Tag("WEB"),
     })
-    void verifySearchFirstResultTest(String searchQuery, String searchResult){
+    void verifyFirstSearchResultTest(String searchQuery, String searchResult){
         $("[placeholder='Search apple.com']").setValue(searchQuery).pressEnter();
         $(".rf-serp-explore-curated-position-1 h2").shouldHave(text(searchResult));
     }
@@ -70,7 +71,7 @@ public class SearchTest extends TestBase {
             @Tag("WEB"),
     })
     @ParameterizedTest(name = "Поиск по запросу {0} и сравнение результатов {1}")
-    void verifySearchResultTest(Queries queries, List<String> searchResults) {
+    void verifySearchResultsTest(Queries queries, List<String> searchResults) {
         $("[placeholder='Search apple.com']").setValue(queries.description).pressEnter();
         $$("#exploreCurated h2").filter(visible).shouldHave(texts(searchResults));
 

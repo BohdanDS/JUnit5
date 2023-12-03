@@ -1,0 +1,185 @@
+<html class="en-us amr js en seg-consumer us" lang="en-US"><head>
+
+
+            <link rel="preconnect" href="https://store.storeimages.cdn-apple.com/4982/store.apple.com">
+            <link rel="dns-prefetch" href="https://store.storeimages.cdn-apple.com/4982/store.apple.com">
+
+            <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <title>AirPods - Apple</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+    <meta name="format-detection" content="telephone=no">        
+     <meta name="description" content="Apple Store Search Results">
+        
+      
+      <meta name="robots" content="noindex, nofollow">
+      <link rel="canonical" href="https://www.apple.com/search/AirPods?src=globalnav">
+          <script> document.cookie = "as_sfa=Mnx1c3x1c3x8ZW5fVVN8Y29uc3VtZXJ8aW50ZXJuZXR8MHwwfDE; path=/; domain=apple.com; expires=Fri, 31-May-2024 09:22:46 GMT; Secure;"; </script>
+	<script type="application/json" id="metrics">{"config":{"asMetrics":{"dataMule":"v1","graffitiEnabled":false,"enableSendBeacon":["userInteraction"],"useInitializeArgs":false},"omniture":{"account":["applestoreww"],"trackingServer":"securemetrics.apple.com","internalDomains":["store.apple.com","secure.store.apple.com","secure1.store.apple.com","secure2.store.apple.com","epp.apple.com","secure1.epp.apple.com","storeint.apple.com","secure1.storeint.apple.com","www.apple.com"]},"global":{"cookieDomain":"apple.com"}},"data":{"node":"standard/home/search/search_results","properties":{"isHomePage":false,"encryptedStoreId":"wHF2F2PHCCCX72KDY","computedPageName":"AOS: home/search/search_results","serverName":"e18033","characterSetForCountry":"UTF-8","currencyCode":"USD","computedChannel":"AOS: Search","storeSegmentVariable":"AOS: US Consumer","storeFrontId":"10078","computedCustomStoreName":"AOS: US Consumer","langAttribute":"en-us","evarDataNodesEnabled":true},"currency":"USD","area":"search","search":{"searchTerm":"AirPods","selectedTab":"explore","categories":{"explore":{"pageNumber":1,"numOfPages":5,"totalCountText":"1,431 results found","curated":true}}}}}</script>
+    
+    
+    
+
+            <script>
+                     if (/(iPad).*OS ([6-9]|[1-9][0-9]).*AppleWebKit.*Mobile.*Safari/.test(navigator.userAgent)) {
+                       var headNode = document.getElementsByTagName("head")[0];
+var sbNode = document.createElement('meta');
+var url = decodeURI("https://www.apple.com/search/AirPods?src=globalnav");
+var ses = "; " + document.cookie;
+var sesParts = ses.split("; s_vi=");
+ses = sesParts.length == 2 ? sesParts.pop().split(";").shift() : '';
+if (ses !== '') {
+    url += url.indexOf('?') >= 0 ? '&' : '?';
+    url += 'ses=' + encodeURI(ses);
+}
+sbNode.name = 'apple-itunes-app';
+sbNode.content = 'app-id=375380948, app-argument=' + url;
+headNode.appendChild(sbNode);
+
+                     }
+                    else if (/(iPhone|iPod).*OS ([6-9]|[1-9][0-9]).*AppleWebKit.*Mobile.*Safari/.test(navigator.userAgent)) {
+                      var headNode = document.getElementsByTagName("head")[0];
+var sbNode = document.createElement('meta');
+var url = decodeURI("https://www.apple.com/search/AirPods?src=globalnav");
+var ses = "; " + document.cookie;
+var sesParts = ses.split("; s_vi=");
+ses = sesParts.length == 2 ? sesParts.pop().split(";").shift() : '';
+if (ses !== '') {
+    url += url.indexOf('?') >= 0 ? '&' : '?';
+    url += 'ses=' + encodeURI(ses);
+}
+sbNode.name = 'apple-itunes-app';
+sbNode.content = 'app-id=375380948, app-argument=' + url;
+headNode.appendChild(sbNode);
+
+                    }
+            </script>
+
+
+
+        
+
+        
+
+        
+
+            	<script>
+		window.asUnsupportedBrowserUrl = "https://www.apple.com/shop/unsupported";
+	</script>
+
+
+<script>
+	//replace nojs class with js on html element
+	(function(html){
+		html.className = html.className.replace(/\bnojs\b/,'js')
+	})(document.documentElement);
+</script>
+
+    
+            <link data-srs="" rel="stylesheet" href="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-globalelements-2.5.0-13977/dist/ac-globalnav.css" media="screen, print">
+
+
+
+        <link data-srs="" rel="stylesheet" href="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-external-1.53.6-75556/rel/us/external.css" media="screen, print">
+        <link data-srs="" rel="stylesheet" href="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-vendor-1.16.0-039c5/dist/common-css@0.4.2/dist/common.css" media="screen, print">
+        <link data-srs="" rel="stylesheet" href="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-accessories-2.13.3-73afc/dist/search-results.css" media="screen, print">
+
+        <link data-srs="" rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v3:200,300,400,500,600|SF+Pro+Icons,v3|Apple+Monochrome+Emoji,v3|Apple+Monochrome+Emoji+Ind,v2|Graphik,v1">
+
+    
+
+
+
+<link rel="stylesheet" href="https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/Catalog/global/css/web/merch/merch-tools.css" media="screen, print">
+
+	<script>
+		window.irOn=true;
+	</script>
+
+    <script>
+window.ECHO_CONFIG = {
+    metadata: {
+        environment: "",
+        sf: "us",
+        segment: "Consumer",
+        locale: "en-us",
+        referer: document.referrer,
+        node: "standard/home/search/search_results",
+        pageResource: "accessories-2",
+        feature: "search-results",
+        targetEnabled: "false"
+    },
+    config: {
+        "app": "com.apple.www.Store",
+        "delaySendingPageViewDataMS": 500,
+        "nonEssentialEventSampleRatePct": 0.1,
+        "performanceMeasurePollingIntervalMS": 1000,
+        "performanceMeasuresToReport": "".split(','),
+        "resourceDisallowedResourceList": "securemetrics.apple.com".split(','),
+        "resourcePollingIntervalMS": 2000,
+        "sendErrors": true,
+        "sendPageViewData": true,
+        "sendResourceData":  true,
+        "url": "https://xp.apple.com/report/2/xp_aos_clientperf",
+        "sendLoggingData": true
+    }
+};
+    </script>
+
+    
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-echo-3.14.0-54593/dist/echo-nomodule.min.js" nomodule="" crossorigin="anonymous"></script>
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-external-1.53.6-75556/rel/unsupportedBrowser.min.js" nomodule="" crossorigin="anonymous"></script>
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-echo-3.14.0-54593/dist/echo.min.js" async="" crossorigin="anonymous" type="module"></script>
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-external-1.53.6-75556/rel/external.js" crossorigin="anonymous"></script>
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-vendor-1.16.0-039c5/dist/lodash@4.17.20/lodash.min.js" crossorigin="anonymous"></script>
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-vendor-1.16.0-039c5/dist/react@17.0.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-vendor-1.16.0-039c5/dist/react-dom@17.0.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-accessories-2.13.3-73afc/dist/search-results.js" crossorigin="anonymous"></script>
+
+        <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-globalelements-2.5.0-13977/dist/ac-globalnav.umd.js" defer="" crossorigin="anonymous"></script>
+    <script data-srs="" src="https://store.storeimages.cdn-apple.com/4982/store.apple.com/static-resources/rs-globalelements-2.5.0-13977/dist/globalelements.js" crossorigin="anonymous"></script>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+    window.chatConfig = {"chat":{"page":[{"name":"WEB_CHAT_COUNTRY","value":"us"},{"name":"WEB_CHAT_LANGUAGE","value":"en"},{"name":"WEB_CHAT_ORDERNUMBER","value":null},{"name":"WEB_CHAT_GEO","value":"amr"},{"name":"WEB_CHAT_SEGMENT","value":"consumer"},{"name":"WEB_CHAT_SECTION","value":"product selection"},{"name":"WEB_CHAT_SUBSECTION","value":"search_results"},{"name":"WEB_CHAT_REFER","value":"https://www.apple.com/"},{"name":"WEB_CHAT_APP","value":"AOS"},{"name":"WEB_CHAT_PAGE","value":"AOS: home/search/search_results"},{"name":"url","value":"https://contactretail.apple.com"}]}};
+</script>
+
+<script></script>
+
+    
+
+<script>
+	if(!/dssid2/.test(document.cookie) || !/as_dc/.test(document.cookie)) {
+		document.addEventListener('DOMContentLoaded', () => {
+			const ie = document.createElement("IMG");
+			ie.src = '/shop/dc';
+			ie.width = 1;
+			ie.height = 1;
+			ie.style.display = "none";
+			ie.alt = "";
+			document.body.appendChild(ie);
+		});
+	}
+</script>
+
+
+    
+
+
+</head>
+
+
+	<body class=" rf-search-results">
+		    </body></html>

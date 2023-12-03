@@ -18,4 +18,29 @@ jobs:
 #   Запускаем тесты
     - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
 
+# Скачиваем историю тестов
+    - uses: actions/checkout@v2
+      if: always()
+      continue-on-error: true
+      with:
+        ref: gh-pages
+        path: gh-pages
+#   Генерируем отчет
+    - uses: simple-elf/allure-report-action@master
+      if: always()
+      with:
+        allure_results: build/allure-results
+        gh_pages: gh-pages
+        allure_report: allure-report
+        allure_history: allure-history
+#        Публикуем отчет
+    - uses: simple-elf/allure-report-action@master
+      if: always()
+      id: allure-report
+      with:
+        allure_results: build/allure-results
+        gh_pages: gh-pages
+        allure_report: allure-report
+        allure_history: allure-history
+
 
